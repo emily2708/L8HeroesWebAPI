@@ -1,0 +1,7 @@
+﻿@L8HeroesWebAPI_HostAddress = http://localhost:5252
+
+GET {{L8HeroesWebAPI_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
+

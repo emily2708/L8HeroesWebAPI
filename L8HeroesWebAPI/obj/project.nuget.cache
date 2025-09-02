@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "gBoNf98CgPs8DLKTCrT3Ou1QMi+EsikxTEqU3sHP7UsHZhMQaZOTR7bb1QUFh91WsPFClrXEeP+6Rn7pRBqO9w==",
+  "success": true,
+  "projectFilePath": "/Users/liliantan/Projects/L8HeroesWebAPI/L8HeroesWebAPI/L8HeroesWebAPI.csproj",
+  "expectedPackageFiles": [
+    "/Users/liliantan/.nuget/packages/microsoft.extensions.apidescription.server/6.0.5/microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
+    "/Users/liliantan/.nuget/packages/microsoft.openapi/1.2.3/microsoft.openapi.1.2.3.nupkg.sha512",
+    "/Users/liliantan/.nuget/packages/swashbuckle.aspnetcore/6.4.0/swashbuckle.aspnetcore.6.4.0.nupkg.sha512",
+    "/Users/liliantan/.nuget/packages/swashbuckle.aspnetcore.swagger/6.4.0/swashbuckle.aspnetcore.swagger.6.4.0.nupkg.sha512",
+    "/Users/liliantan/.nuget/packages/swashbuckle.aspnetcore.swaggergen/6.4.0/swashbuckle.aspnetcore.swaggergen.6.4.0.nupkg.sha512",
+    "/Users/liliantan/.nuget/packages/swashbuckle.aspnetcore.swaggerui/6.4.0/swashbuckle.aspnetcore.swaggerui.6.4.0.nupkg.sha512"
+  ],
+  "logs": []
+}
