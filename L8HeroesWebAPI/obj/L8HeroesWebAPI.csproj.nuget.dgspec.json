@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/liliantan/Projects/L8HeroesWebAPI/L8HeroesWebAPI/L8HeroesWebAPI.csproj": {}
+    "/Users/liliantan/Projects/L8HeroesWebAPI/L8HeroesWebAPIGit/L8HeroesWebAPI/L8HeroesWebAPI.csproj": {}
   },
   "projects": {
-    "/Users/liliantan/Projects/L8HeroesWebAPI/L8HeroesWebAPI/L8HeroesWebAPI.csproj": {
+    "/Users/liliantan/Projects/L8HeroesWebAPI/L8HeroesWebAPIGit/L8HeroesWebAPI/L8HeroesWebAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/liliantan/Projects/L8HeroesWebAPI/L8HeroesWebAPI/L8HeroesWebAPI.csproj",
+        "projectUniqueName": "/Users/liliantan/Projects/L8HeroesWebAPI/L8HeroesWebAPIGit/L8HeroesWebAPI/L8HeroesWebAPI.csproj",
         "projectName": "L8HeroesWebAPI",
-        "projectPath": "/Users/liliantan/Projects/L8HeroesWebAPI/L8HeroesWebAPI/L8HeroesWebAPI.csproj",
+        "projectPath": "/Users/liliantan/Projects/L8HeroesWebAPI/L8HeroesWebAPIGit/L8HeroesWebAPI/L8HeroesWebAPI.csproj",
         "packagesPath": "/Users/liliantan/.nuget/packages/",
-        "outputPath": "/Users/liliantan/Projects/L8HeroesWebAPI/L8HeroesWebAPI/obj/",
+        "outputPath": "/Users/liliantan/Projects/L8HeroesWebAPI/L8HeroesWebAPIGit/L8HeroesWebAPI/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/liliantan/.nuget/NuGet/NuGet.Config"
@@ -33,12 +33,32 @@
           "warnAsError": [
             "NU1605"
           ]
-        }
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
       },
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[9.0.8, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[9.0.8, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[9.0.8, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.4.0, )"
@@ -55,6 +75,20 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[8.0.18, 8.0.18]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.osx-arm64",
+              "version": "[8.0.18, 8.0.18]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[8.0.18, 8.0.18]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
@@ -63,7 +97,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.301/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.303/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

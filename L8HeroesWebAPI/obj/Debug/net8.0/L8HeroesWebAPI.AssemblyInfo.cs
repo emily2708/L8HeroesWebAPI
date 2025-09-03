@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("L8HeroesWebAPI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6530ad4e9520f4c1d137f8c8329bb39c52f65c74")]
 [assembly: System.Reflection.AssemblyProductAttribute("L8HeroesWebAPI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("L8HeroesWebAPI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
